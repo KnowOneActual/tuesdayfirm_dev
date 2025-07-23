@@ -1,0 +1,32 @@
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: #111827; /* bg-gray-900 */
+}
+
+.cursor {
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    from,
+    to {
+        color: transparent;
+    }
+    50% {
+        color: #4ade80; /* text-green-400 */
+    }
+}
+
+/* Logo fade-in animation */
+.logo-container {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
