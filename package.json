@@ -1,0 +1,32 @@
+{
+  "name": "tuesdayfirm_dev",
+  "version": "1.0.0",
+  "description": "A cryptic, minimalist landing page for the tuesdayfirm.dev domain.",
+  "main": "404.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "postcss src/styles.css -o dist/styles.css",
+    "watch-css": "postcss src/styles.css -o dist/styles.css --watch",
+    "dev": "npm run watch-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KnowOneActual/tuesdayfirm_dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KnowOneActual/tuesdayfirm_dev/issues"
+  },
+  "homepage": "https://github.com/KnowOneActual/tuesdayfirm_dev#readme",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.11"
+  }
+}
+
