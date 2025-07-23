@@ -20,7 +20,7 @@
     <meta property="og:url" content="https://tuesdayfirm.dev">
 
     <meta http-equiv="Content-Security-Policy"
-        content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; object-src 'none'; frame-ancestors 'none';">
+        content="default-src 'self'; script-src 'self' https://cdn.tailwindcss.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; object-src 'none'; frame-ancestors 'none';">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta http-equiv="X-Frame-Options" content="DENY">
     <meta name="Referrer-Policy" content="strict-origin-when-cross-origin">
@@ -34,30 +34,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Space Mono', monospace;
-            background-color: #111827;
-            /* bg-gray-900 */
-        }
-
-        .cursor {
-            animation: blink 1s step-end infinite;
-        }
-
-        @keyframes blink {
-
-            from,
-            to {
-                color: transparent;
-            }
-
-            50% {
-                color: #4ade80;
-                /* text-green-400 */
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="text-gray-300">
@@ -80,27 +57,7 @@
         </div>
     </div>
 
-    <script>
-        const messageEl = document.getElementById('message');
-        const returnLink = document.getElementById('return-link');
-        const messageText = "ERROR 404: File not found. The requested resource is not available on this server.";
-
-        // Typewriter effect
-        let i = 0;
-        function typeWriter() {
-            if (i < messageText.length) {
-                messageEl.innerHTML += messageText.charAt(i);
-                i++;
-                setTimeout(typeWriter, 50);
-            } else {
-                // Show the return link after the message is typed
-                returnLink.style.visibility = 'visible';
-            }
-        }
-
-        // Run the function when the page loads
-        window.onload = typeWriter;
-    </script>
+    <script src="404.js"></script>
 
 </body>
 
