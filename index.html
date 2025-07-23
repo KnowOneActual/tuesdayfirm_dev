@@ -13,18 +13,20 @@
     <link rel="shortcut icon" href="/img/favicon/favicon.ico" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- SEO / Social Media Tags -->
     <meta name="description" content="A landing page for TUESDAYFIRM.DEV?">
     <meta property="og:title" content="TUESDAYFIRM.DEV">
     <meta property="og:description" content="A cryptic landing page?">
-    <meta property="og:image" content="https://tuesdayfirm.dev/img/tf_logo/TF_DEV_LOGO_v11.svg"> 
+    <meta property="og:image" content="https://tuesdayfirm.dev/img/tf_logo/TF_DEV_LOGO_v11.svg">
     <meta property="og:url" content="https://tuesdayfirm.dev">
 
-    <!-- Security Headers -->
     <meta http-equiv="Content-Security-Policy"
         content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; object-src 'none'; frame-ancestors 'none';">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta name="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta name="Permissions-Policy"
+        content="accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()">
+
 
     <title>TUESDAYFIRM.DEV</title>
 
@@ -78,7 +80,6 @@
     <div class="flex items-center justify-center min-h-screen">
         <div class="text-center p-8">
 
-            <!-- SVG Logo -->
             <div class="logo-container mb-8 inline-block">
                 <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 20H80V35H20V20Z" fill="#4ade80" />
@@ -87,7 +88,6 @@
                 </svg>
             </div>
 
-            <!-- Message Container -->
             <div id="message-container" class="text-lg md:text-xl lg:text-2xl">
                 <span id="message" class="text-green-400"></span><span class="cursor">_</span>
             </div>
