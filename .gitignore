@@ -1,0 +1,27 @@
+# .gitignore
+
+# General
+# ----------------------------------------------------------------
+# Ignore log files
+*.log
+*.tmp
+
+# Operating System Files
+# ----------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE / Editor specific
+# ----------------------------------------------------------------
+# VSCode
+.vscode/
+# JetBrains/IntelliJ
+.idea/
+
