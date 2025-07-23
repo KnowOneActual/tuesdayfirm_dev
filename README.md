@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="img/tf_logo/TF_logo_green.svg" alt="Green The Tuesday Firm Logo" width="200">
+</p>
 # **TUESDAYFIRM.DEV**
 
 A cryptic, minimalist landing page for the tuesdayfirm.dev domain.
