@@ -25,3 +25,9 @@ Desktop.ini
 # JetBrains/IntelliJ
 .idea/
 
+# Build process
+# ----------------------------------------------------------------
+# Ignore node_modules directory
+node_modules/
+# Ignore compiled CSS
+output.css
