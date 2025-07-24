@@ -4,11 +4,9 @@
 
 ## **The Tuesday Firm at TUESDAYFIRM.DEV**
 
-![Website](https://img.shields.io/website?up_message=online&down_message=offline&url=https%3A%2F%2Ftuesdayfirm.dev&style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/Tuesday-Firm/tuesdayfirm.dev?style=for-the-badge)
-![GitHub License](https://img.shields.io/github/license/Tuesday-Firm/tuesdayfirm.dev?style=for-the-badge)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-active-green.svg?style=for-the-badge)
 ![Made with](https://img.shields.io/badge/Made%20with-cosmic%20bargains-4ade80?style=for-the-badge&labelColor=1e1e1e)
-
 
  This project is a collection of thoughts and ideas—a public record of trying to build something from nothing.
 
