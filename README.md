@@ -4,12 +4,12 @@
 
 ## **The Tuesday Firm at TUESDAYFIRM.DEV**
 
-A cryptic, minimalist landing page for the tuesdayfirm.dev domain.
+ This project is a collection of thoughts and ideas—a public record of trying to build something from nothing.
 
 ## **About**
 
-This repository contains the source code for the landing page at [tuesdayfirm.dev](https://www.google.com/search?q=https://tuesdayfirm.dev). The domain is primarily used for email addresses, so a traditional website isn't necessary.  
-Instead, this page serves as a "head-scratcher" — a simple, yet mysterious placeholder that hints at activity without revealing anything concrete.
+This repository contains the source code for the landing page at [tuesdayfirm.dev](https://tuesdayfirm.dev). 
+For now, this page serves as a "head-scratcher" — a simple, yet mysterious placeholder that hints at activity without revealing anything concrete.
 
 ## **The Concept**
 
@@ -32,3 +32,7 @@ This page was built using:
 
 * **Styling:** [Tailwind CSS](https://tailwindcss.com/)  
 * **Font:** [Space Mono](https://fonts.google.com/specimen/Space+Mono) by Google Fonts.
+
+## A Note on Transparency
+
+This project started as a simple domain for an email and a Discord server. The goal was to create a supportive space for people who didn't think they could code or create. While that project is on hold, this site is the first step in moving that spirit forward. Everything you see here—the code, the story, the design—is part of that journey.
