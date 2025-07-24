@@ -1,3 +1,4 @@
+**I’m a work in progress, but if I know in my heart that I’m doing my best, that my heart’s in the right place, that I have unconditional love, I feel okay. – Stevie Wonder**
 <p align="center">
   <img src="img/tf_logo/TF_logo_green.svg" alt="Green The Tuesday Firm Logo" width="200">
 </p>
