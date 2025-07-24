@@ -66,11 +66,37 @@ document.addEventListener('DOMContentLoaded', function() {
             modal.style.display = 'none';
         }, 300); // This should match the transition duration in CSS
     }
+ 
+    // --- THIS IS THE NEW CONSOLE MESSAGE ---
+    const consoleLogStyle = [
+        'color: #4ade80', // green-400
+        'font-family: Space Mono, monospace',
+        'font-size: 14px',
+        'line-height: 1.5',
+    ].join(';');
 
+    const consoleMessage = `
+%cOn the Nature of the Firm:
+
+We are a binding, not a company.
+A collection of things that shouldn't exist, woven together to hold back chaos.
+`;
+
+    console.log(consoleMessage, consoleLogStyle);
+    // --- END OF NEW MESSAGE ---
+
+
+    // --- Your Existing Daily Messages Code ---
+    const dailyMessages = [
+        // ... your messages here
+    ];
+  
     // Event Listeners
     openBtn.addEventListener('click', openModal);
     closeBtn.addEventListener('click', closeModal);
 
+    
+    
     // Also close the modal if the user clicks outside of the content box
     window.addEventListener('click', function(event) {
         if (event.target === modal) {
