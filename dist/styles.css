@@ -187,14 +187,14 @@
   }
 }
 @layer utilities {
+  .invisible {
+    visibility: hidden;
+  }
   .visible {
     visibility: visible;
   }
   .absolute {
     position: absolute;
-  }
-  .static {
-    position: static;
   }
   .right-0 {
     right: calc(var(--spacing) * 0);
@@ -217,11 +217,11 @@
   .block {
     display: block;
   }
-  .contents {
-    display: contents;
-  }
   .flex {
     display: flex;
+  }
+  .inline {
+    display: inline;
   }
   .inline-block {
     display: inline-block;
