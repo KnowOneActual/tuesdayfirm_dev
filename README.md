@@ -3,7 +3,7 @@
 > **"We are a binding, not a company. A collection of things that shouldn't exist, woven together to hold back chaos."**
 
 <p align="center">
-  <img src="img/tf_logo/TF_logo_green.svg" alt="Green The Tuesday Firm Logo" width="200">
+  <img src="public/img/tf_logo/TF_logo_green.svg" alt="Green The Tuesday Firm Logo" width="200">
 </p>
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-4ade80?style=for-the-badge&labelColor=111)
