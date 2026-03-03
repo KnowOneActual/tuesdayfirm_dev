@@ -29,5 +29,7 @@ Desktop.ini
 # ----------------------------------------------------------------
 # Ignore node_modules directory
 node_modules/
+# Ignore build output
+dist/
 # Ignore compiled CSS
 output.css
