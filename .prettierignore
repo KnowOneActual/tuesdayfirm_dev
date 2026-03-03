@@ -1,7 +1,4 @@
-# Ignore markdown files formatting them manually
-*.md
-
-# Standard ignores
-/node_modules
-/dist
-/build
+node_modules
+dist
+package-lock.json
+public

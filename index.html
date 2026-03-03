@@ -1,100 +1,114 @@
-<!DOCTYPE html> 
+<!doctype html>
 <html lang="en">
+  <head>
+    <link rel="canonical" href="https://tuesdayfirm.dev/" />
+    <link rel="icon" type="image/svg+xml" href="/img/favicon/favicon.svg" />
+    <link rel="icon" type="image/webp" href="/img/favicon/favicon-32x32.webp" sizes="32x32" />
+    <link rel="icon" type="image/webp" href="/img/favicon/favicon-96x96.webp" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/img/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/img/favicon/site.webmanifest" />
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A landing page for TUESDAYFIRM.DEV?" />
+    <meta property="og:title" content="TUESDAYFIRM.DEV" />
+    <meta property="og:description" content="A cryptic landing page?" />
+    <meta property="og:image" content="https://tuesdayfirm.dev/img/tf_logo/TF_DEV_LOGO_v11.svg" />
+    <meta property="og:url" content="https://tuesdayfirm.dev" />
 
-<head>
-    <link rel="canonical" href="https://tuesdayfirm.dev/">
-    <link rel="icon" type="image/svg+xml" href="/img/favicon/favicon.svg">
-    <link rel="icon" type="image/webp" href="/img/favicon/favicon-32x32.webp" sizes="32x32">
-    <link rel="icon" type="image/webp" href="/img/favicon/favicon-96x96.webp" sizes="96x96">
-    <link rel="icon" type="image/png" href="/img/favicon/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="/img/favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
-    <link rel="manifest" href="/img/favicon/site.webmanifest">
-    <link rel="shortcut icon" href="/img/favicon/favicon.ico">
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A landing page for TUESDAYFIRM.DEV?">
-    <meta property="og:title" content="TUESDAYFIRM.DEV">
-    <meta property="og:description" content="A cryptic landing page?">
-    <meta property="og:image" content="https://tuesdayfirm.dev/img/tf_logo/TF_DEV_LOGO_v11.svg">
-    <meta property="og:url" content="https://tuesdayfirm.dev">
-
-    <meta http-equiv="Content-Security-Policy"
-        content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; object-src 'none'; frame-ancestors 'none';">
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    <meta http-equiv="X-Frame-Options" content="DENY">
-    <meta name="Referrer-Policy" content="strict-origin-when-cross-origin">
-    <meta name="Permissions-Policy"
-        content="accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; object-src 'none'; frame-ancestors 'none';"
+    />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta name="Referrer-Policy" content="strict-origin-when-cross-origin" />
+    <meta
+      name="Permissions-Policy"
+      content="accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+    />
 
     <title>TUESDAYFIRM.DEV</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="dist/styles.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
 
-<body class="bg-gray-900 text-gray-300">
+  <body class="bg-gray-900 text-gray-300 crt">
+    <div
+      class="fixed inset-0 pointer-events-none z-50 opacity-[0.03] bg-[url('https://grainy-gradients.vercel.app/noise.svg')]"
+    ></div>
 
     <div class="flex items-center justify-center min-h-screen">
-        <div class="text-center p-8">
-
-            <div class="logo-container mb-8 inline-block">
-                <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    role="img" aria-labelledby="logoTitle logoDesc">
-                    <title id="logoTitle">Tuesday Firm Logo</title>
-                    <desc id="logoDesc">A minimalist, abstract logo with three green geometric shapes resembling a T and
-                        F.</desc>
-                    <path d="M20 20H80V35H20V20Z" fill="#4ade80" />
-                    <path d="M42.5 35H57.5V80H42.5V35Z" fill="#4ade80" />
-                    <path d="M57.5 45H75V60H57.5V45Z" fill="#4ade80" />
-                </svg>
-            </div>
-
-            <div id="message-container" class="text-lg md:text-xl lg:text-2xl">
-                <span id="message" class="text-green-400"></span><span class="cursor">_</span>
-            </div>
+      <div class="text-center p-8">
+        <div class="logo-container mb-8 inline-block logo-fade-in glitch">
+          <svg
+            width="80"
+            height="80"
+            viewBox="0 0 100 100"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-labelledby="logoTitle logoDesc"
+          >
+            <title id="logoTitle">Tuesday Firm Logo</title>
+            <desc id="logoDesc">
+              A minimalist, abstract logo with three green geometric shapes resembling a T and F.
+            </desc>
+            <path d="M20 20H80V35H20V20Z" fill="#4ade80" />
+            <path d="M42.5 35H57.5V80H42.5V35Z" fill="#4ade80" />
+            <path d="M57.5 45H75V60H57.5V45Z" fill="#4ade80" />
+          </svg>
         </div>
+
+        <div id="message-container" class="text-lg md:text-xl lg:text-2xl">
+          <span id="message" class="text-green-400"></span><span class="cursor">_</span>
+        </div>
+      </div>
     </div>
 
     <div id="story-modal" class="modal">
-        <div class="modal-content">
-            <span class="close-button">&times;</span>
-            <h2>On the Nature of the Firm</h2>
-            <p>
-                Have you ever had a word get stuck in your head? Not a song, but a single word or an odd phrase. It hangs
-                around, refusing to leave, like a guest who has overstayed their welcome but is too interesting to kick
-                out.
-                For me, that phrase was "The Tuesday Firm."
-            </p>
-            <p>
-                In forgotten folklore, Tuesday is a day of cosmic bargains and beautiful, terrible creations. It’s a day
-                named for a one-handed god who made a sacrifice to bind a world-devouring wolf. To do this, the gods
-                commissioned a chain, Gleipnir, to be forged from impossible things: the sound of a cat's footfall, the
-                beard of a woman, the roots of a mountain, the spit of a bird.
-            </p>
-            <p>
-                They took things that shouldn't exist and wove them into a bond strong enough to hold back chaos. That’s
-                closer to the truth of this place.
-            </p>
-            <p>
-                The Tuesday Firm isn't a company. It's a binding. It's a collection of thoughts and ideas, a public
-                record
-                of trying to build something from nothing.
-            </p>
-        </div>
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>On the Nature of the Firm</h2>
+        <p>
+          Have you ever had a word get stuck in your head? Not a song, but a single word or an odd
+          phrase. It hangs around, refusing to leave, like a guest who has overstayed their welcome
+          but is too interesting to kick out. For me, that phrase was "The Tuesday Firm."
+        </p>
+        <p>
+          In forgotten folklore, Tuesday is a day of cosmic bargains and beautiful, terrible
+          creations. It’s a day named for a one-handed god who made a sacrifice to bind a
+          world-devouring wolf. To do this, the gods commissioned a chain, Gleipnir, to be forged
+          from impossible things: the sound of a cat's footfall, the beard of a woman, the roots of
+          a mountain, the spit of a bird.
+        </p>
+        <p>
+          They took things that shouldn't exist and wove them into a bond strong enough to hold back
+          chaos. That’s closer to the truth of this place.
+        </p>
+        <p>
+          The Tuesday Firm isn't a company. It's a binding. It's a collection of thoughts and ideas,
+          a public record of trying to build something from nothing.
+        </p>
+      </div>
     </div>
 
     <footer class="absolute bottom-4 left-0 right-0 text-center text-gray-600 text-sm">
-        <a href="javascript:void(0);" id="open-story-modal" class="hover:text-gray-400 underline">What is The Tuesday
-            Firm?</a>
-        <span class="mx-2">|</span>
-        <span>TUESDAYFIRM.DEV</span>
+      <a href="javascript:void(0);" id="open-story-modal" class="hover:text-gray-400 underline"
+        >What is The Tuesday Firm?</a
+      >
+      <span class="mx-2">|</span>
+      <span>TUESDAYFIRM.DEV</span>
     </footer>
 
-    <script src="script.js"></script>
-</body>
-
+    <script type="module" src="src/script.js"></script>
+  </body>
 </html>

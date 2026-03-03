@@ -1,41 +1,57 @@
-**I’m a work in progress, but if I know in my heart that I’m doing my best, that my heart’s in the right place, that I have unconditional love, I feel okay. – Stevie Wonder**
+# TUESDAYFIRM.DEV - The Binding
+
+> **"We are a binding, not a company. A collection of things that shouldn't exist, woven together to hold back chaos."**
+
 <p align="center">
   <img src="img/tf_logo/TF_logo_green.svg" alt="Green The Tuesday Firm Logo" width="200">
 </p>
 
-## **The Tuesday Firm at TUESDAYFIRM.DEV**
+![License: MIT](https://img.shields.io/badge/License-MIT-4ade80?style=for-the-badge&labelColor=111)
+![Status: Operative](https://img.shields.io/badge/Status-Operative-4ade80?style=for-the-badge&labelColor=111)
+![Tech: Vite + Tailwind 4](https://img.shields.io/badge/Tech-Vite%20%2B%20Tailwind%204-4ade80?style=for-the-badge&labelColor=111)
 
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge) 
-![Status: Active](https://img.shields.io/badge/Status-Active-green.svg?style=for-the-badge) 
-![Made with](https://img.shields.io/badge/Made%20with-cosmic%20bargains-4ade80?style=for-the-badge&labelColor=1e1e1e)
+A cryptic, minimalist landing page for the `tuesdayfirm.dev` domain. Designed as an interactive terminal experience.
 
- This project is a collection of thoughts and ideas—a public record of trying to build something from nothing.
+## 📟 System Overview
 
-## **About**
+The Tuesday Firm is a digital artifact—a "head-scratcher" that hints at hidden activity. It mimics a retro terminal, responding to the time of week and user interactions.
 
-This repository contains the source code for the landing page at [tuesdayfirm.dev](https://tuesdayfirm.dev). 
-For now, this page serves as a "head-scratcher" — a simple, yet mysterious placeholder that hints at activity without revealing anything concrete.
+### Features
 
-## **The Concept**
+- **Terminal Aesthetic:** Full CRT scanline effects, flickering, and analog noise.
+- **Dynamic Messaging:** The terminal's daily log changes based on the day of the week.
+- **Hidden Triggers:** The system responds to specific keystrokes (Easter Eggs).
+- **The Lore Modal:** Discover the origin of "The Tuesday Firm" through a terminal-styled interface.
+- **Realistic Typewriter:** Asynchronous typing with randomized intervals for an authentic feel.
 
-The page is designed to look like a retro computer terminal. Upon visiting, a message is displayed, with its content changing depending on the day of the week.
+## ⌨️ Terminal Commands
 
-* **Monday \- Sunday:** A series of vague, system-status-like messages are displayed.  
-* **Tuesday:** A special message appears, acknowledging that "The firm is operative," as a nod to the domain name.
+While on the page, you can type these commands to interact with the system:
 
-## Features
+- `LORE`: Access the firm's history.
+- `STATUS`: Run a diagnostic on the current Tuesday status.
+- `HELP`: Request guidance (not that it will help).
 
--   **Minimalist Landing Page:** A clean, single-page site built with HTML and styled with Tailwind CSS.
--   **Animated Text:** A simple, type-in effect that displays a different message for each day of the week.
--   **The Folklore Modal:** An interactive pop-up that reveals the story behind The Tuesday Firm.
--   **A Hidden Welcome:** A cryptic message awaits those who open the developer console—a small nod to the curious.
-    
+## 🛠 Tech Stack
 
-## **This page was built using:**
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Font:** [Space Mono](https://fonts.google.com/specimen/Space+Mono)
+- **Engine:** Vanilla JavaScript (ES6+)
 
-* **Styling:** [Tailwind CSS](https://tailwindcss.com/)  
-* **Font:** [Space Mono](https://fonts.google.com/specimen/Space+Mono) by Google Fonts.
+## 🚀 Development
 
-## A Note on Transparency
+```bash
+# Install dependencies
+npm install
 
-This project started as a simple idea, a domain for an email and a Discord server. The goal was to create a supportive space for people who didn't think they could code or create. While that project is on hold, this site is the first step in moving that spirit forward. Everything you see here: the code, the story, the design—is part of that journey.
+# Start the dev server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## 🌑 Background
+
+Inspired by forgotten folklore and the cosmic bargains of Tuesday. This site serves as a public record of building something from nothing—a binding of impossible things.
