@@ -1,0 +1,13 @@
+name: Security Scan
+on: [push, pull_request]
+jobs:
+  trivy:
+    uses: aquasecurity/trivy-action@master
+    with:
+      scan-type: 'fs'
+      scan-ref: '.'
+      severity: 'HIGH,CRITICAL'  # Fail on criticals [web:42]
+  codeql:
+    uses: github/codeql-action/analyze@v3
+    with:
+      languages: python,javascript  # Your stacks [web:13]
